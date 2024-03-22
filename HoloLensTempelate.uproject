@@ -1,0 +1,43 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.27",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Phase1",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "MicrosoftOpenXR",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ef8930ca860148c498b46887da196239",
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"HoloLens"
+			]
+		},
+		{
+			"Name": "MrtkHub",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/211d009f26e943f19f41bbbaff9f273c"
+		},
+		{
+			"Name": "XRVisualization",
+			"Enabled": true
+		},
+		{
+			"Name": "UXTools",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/f9f9cddaf5834ad1abeda49da34adf85",
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"HoloLens",
+				"Android"
+			]
+		}
+	]
+}
