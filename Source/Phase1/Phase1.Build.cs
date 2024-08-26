@@ -8,7 +8,7 @@ public class Phase1 : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "WebSockets", "Http", "Json", "JsonUtilities", "ImageWrapper" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
